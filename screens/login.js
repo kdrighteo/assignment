@@ -24,7 +24,8 @@ export default function Login(){
             padding:15, 
             paddingHorizontal:60, 
             margin:10, 
-            borderRadius:10}}>
+            borderRadius:10,
+            transform:[{rotate: "300deg"}]}}>
             <Image
             style={{height:20, width:20, 
                 marginRight:30}} 
