@@ -52,7 +52,7 @@ export default function Login(){
         </TouchableOpacity>
         <Text style={{marginTop:20, fontWeight:'600',
         color: "#bab1ab"}}>
-            Not a member? <Text style={{color:"orange"}}>SignUp</Text>
+            Not a member? <TouchableOpacity><Text style={{color:"orange"}}>SignUp</Text></TouchableOpacity>
         </Text>
     </View>
 }
