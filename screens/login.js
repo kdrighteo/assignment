@@ -18,7 +18,9 @@ export default function Login(){
         fontSize:24}}>Welcome to</Text>
 
         <Text style={{color:"black", fontSize:30, fontWeight:'700', marginBottom:10}}>Power Bike Shop</Text>
-        <TouchableOpacity style={{fontSize:20,
+        <TouchableOpacity onPress = {() => {
+            navigation.navigate("Home")
+        }} style={{fontSize:20,
             flexDirection:"row", 
             backgroundColor:"#d3dbd5", 
             padding:15, 
